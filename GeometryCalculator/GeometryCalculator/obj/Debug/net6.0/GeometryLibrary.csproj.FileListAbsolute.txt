@@ -1,0 +1,5 @@
+C:\Users\m.pushkareva\TestRep\MindBox\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryLibrary.csproj.AssemblyReference.cache
+C:\Users\m.pushkareva\TestRep\MindBox\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.pushkareva\TestRep\MindBox\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryLibrary.AssemblyInfoInputs.cache
+C:\Users\m.pushkareva\TestRep\MindBox\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryLibrary.AssemblyInfo.cs
+C:\Users\m.pushkareva\TestRep\MindBox\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryLibrary.csproj.CoreCompileInputs.cache

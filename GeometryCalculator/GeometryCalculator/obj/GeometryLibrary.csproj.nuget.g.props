@@ -12,4 +12,12 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\m.pushkareva\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.core\2.6.5\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.6.5\build\xunit.core.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit\4.0.1\build\NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit\4.0.1\build\NUnit.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\m.pushkareva\.nuget\packages\xunit.analyzers\1.9.0</Pkgxunit_analyzers>
+    <PkgMicrosoft_TestPlatform Condition=" '$(PkgMicrosoft_TestPlatform)' == '' ">C:\Users\m.pushkareva\.nuget\packages\microsoft.testplatform\17.8.0</PkgMicrosoft_TestPlatform>
+  </PropertyGroup>
 </Project>
